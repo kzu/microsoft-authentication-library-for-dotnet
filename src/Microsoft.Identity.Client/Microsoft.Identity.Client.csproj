@@ -46,7 +46,7 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <DefineConstants>$(DefineConstants);IOS1_0</DefineConstants>
     <DebugType>full</DebugType>
-    <LanguageTargets>$(MSBuildProgramFiles32)\MSBuild\Xamarin\iOS\Xamarin.iOS.CSharp.targets</LanguageTargets>
+    <LanguageTargets>$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets</LanguageTargets>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)' == 'MonoAndroid403'">
     <TargetFrameworkIdentifier>MonoAndroid</TargetFrameworkIdentifier>
@@ -55,7 +55,7 @@
     <DebugType>full</DebugType>
     <DefineConstants>$(DefineConstants);MONOANDROID4_0_3</DefineConstants>
     <AndroidResgenFile>..\MSAL.PCL.Android\Resources\Resource.Designer.cs</AndroidResgenFile>
-    <LanguageTargets>$(MSBuildProgramFiles32)\MSBuild\Xamarin\Android\Xamarin.Android.CSharp.targets</LanguageTargets>
+    <LanguageTargets>$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets</LanguageTargets>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetFramework)' == 'net45'">
     <DefineConstants>$(DefineConstants);NET4_5</DefineConstants>
